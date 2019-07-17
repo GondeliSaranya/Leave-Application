@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>  
+  
+<servlet>  
+<servlet-name>loginserve</servlet-name>  
+<servlet-class>loginserve</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>loginserve</servlet-name>  
+<url-pattern>/loginserve</url-pattern>  
+<servlet-name>loginsserve</servlet-name>  
+<url-pattern>/loginsserve</url-pattern>  
+<servlet-name>datastoreserve</servlet-name>  
+<url-pattern>/datastoreserve</url-pattern>  
+</servlet-mapping>  
+  
+<welcome-file-list>  
+    <welcome-file>Login.jsp</welcome-file>  
+</welcome-file-list>  
+  
+</web-app>  
